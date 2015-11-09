@@ -2,6 +2,8 @@ import java.util.Scanner;
 import java.io.File;
 import java.io.IOException;
 import java.awt.Polygon;
+import java.awt.Graphics;
+import java.awt.Color;
 
 public class PresidentialElection {
 
