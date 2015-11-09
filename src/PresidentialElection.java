@@ -1,28 +1,26 @@
 import java.util.Scanner;
 import java.io.File;
 import java.io.IOException;
+import java.awt.Polygon;
+
 public class PresidentialElection {
 
 	public static void main(String[] args) throws IOException {
-		String isbn; // the books isbn number
-		String author; // the author of the text
-		String title; // the title of the text
-		String prepub; // "AW" (publisher)
-		String postpub; // converted "aw" to "Addison Wesley"
-		int ed = 0; // the edition of the text
-		int quant = 0; // the amount of a text needed
-		double price = 0; // the price of the book
-		double total = 0; // amount of books*price of books
-		double avgPrice = 0; //the average price of the books in text file
-		double sumPrice = 0; //The sum of all of the totals
-		double totalValue = 0; //The value of the inventory
-		int numBooks = 0; // The amount of books (counting duplicates)
-		// in the text file.
-		//Read in file name from user
-		System.out.println("Please enter the name of your file in the "
-			+ "format \"filename.txt\" ");
-		Scanner keyboard = new Scanner(System.in);
-		String fileName = keyboard.nextLine();
+    Scanner keyboard = new Scanner(System.in);
+
+		String state, county;
+
+		System.out.println("Election year? ")
+		int electionYear = keyboard.nextInt();
+
+		System.out.println("Election results color scheme (r) Red/Blue or (p) Purple? ")
+		String colorScheme = keyboard.nextLine();
+
+		System.out.println("State or County? ");
+		String stateCounty = keyboard.nextLine();
+
+		System.out.println("Loading: ")
+
 
 
 		// open file and check if the file exists
