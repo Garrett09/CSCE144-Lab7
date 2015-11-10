@@ -22,6 +22,16 @@ public class PresidentialElection {
 		String stateCounty = keyboard.nextLine();
 
 		System.out.println("Loading: ")
+		if(stateCounty == "county" && electionYear == 2000 || "County" && 2000)
+		 File file = new File(USA-county-2000.txt)
+		 else if ("county" && 2004 || "County" && 2004)
+		 File file = new File(USA-county-2004.txt)
+		 else if ("county" && 2008 || "County" && 2008)
+		 File file = new File(USA-county-2008.txt)
+		 else if ("county" && 2012 || "County" && 2012)
+		 File file = new File(USA-county-2012.txt)
+		 else if
+
 
 
 
