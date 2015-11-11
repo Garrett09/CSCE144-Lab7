@@ -41,7 +41,6 @@ public class PresidentialElection {
 
 		fileName = "USA-"+region+year+".txt";
 
-		fileName = "USA-2000.txt";
 		System.out.println("Loading: "+fileName);
 
 		draw(fileName, scheme);
