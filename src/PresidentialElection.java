@@ -13,7 +13,7 @@ public class PresidentialElection {
 		int year;
 		char scheme = 'p';
 		String color, region, fileName;
-		/**
+		/
 		System.out.print("Election year? ");
 		year = keyboard.nextInt();
 
@@ -40,7 +40,7 @@ public class PresidentialElection {
 		}
 
 		fileName = "USA-"+region+year+".txt";
-		*/
+
 		fileName = "USA-2000.txt";
 		System.out.println("Loading: "+fileName);
 
@@ -114,7 +114,7 @@ public class PresidentialElection {
 					x = (int)((width / lonDif) * (longitude - minLon));
 					y = (int)((height / latDif) * (latitude - minLat));
 					//System.out.println("X :" + x);
-					//System.out.println("Y :" + y);
+					System.out.println("Y :" + y);
 					region.addPoint(x,y);
 				}
 				//draw region to JFrame
