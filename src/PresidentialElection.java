@@ -13,7 +13,7 @@ public class PresidentialElection {
 		int year;
 		char scheme = 'p';
 		String color, region, fileName;
-		/
+		
 		System.out.print("Election year? ");
 		year = keyboard.nextInt();
 
