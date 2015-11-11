@@ -13,7 +13,7 @@ public class PresidentialElection {
 		int year;
 		char scheme = 'p';
 		String color, region, fileName;
-		
+
 		System.out.print("Election year? ");
 		year = keyboard.nextInt();
 
@@ -110,10 +110,17 @@ public class PresidentialElection {
 					double latitude = fileIn.nextDouble();
 					//System.out.println("long: "+ longitude);
 					//System.out.println("lat: "+latitude);
+
+					// THESE EQUATIONS ARE INCORRECT! THIS IS WHERE THE MISTAKE OCCURS!
+					//-----------------------------------------------------------------
 					x = (int)((width / lonDif) * (longitude - minLon));
 					y = (int)((height / latDif) * (latitude - minLat));
+         //-----------------------------------------------------------------
+
+
+
 					//System.out.println("X :" + x);
-					System.out.println("Y :" + y);
+					//System.out.println("Y :" + y);
 					region.addPoint(x,y);
 				}
 				//draw region to JFrame
